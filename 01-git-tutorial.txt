@@ -1,0 +1,25 @@
+Config git:
+	git config --global user.name "some name of the user"
+	git config --global user.email "some mail to "
+
+Initializing a git project:
+	cd "to the folder you want to use for version control"
+	git init
+
+Adding new files:
+	- once inside the local repo ...
+	- we write index.html
+	git status
+		- with this, git present the files in which it is aware, which:
+			- tracked: files that git knows about and are added to the repository
+			- untracked: file that are in you working directory, but not added to the repository.
+	- to get git to track them you need to "stage" them, or add them to the stagging environment.
+
+
+Stagging Environment:
+	git add index.html	# to stage the file
+	git status	# to se that git now is monitoring the file
+	git add --all # add all the files to the stagging environoment, this will stage all changes (new, modified, delete)
+	git status # to check the stagging
+
+	
