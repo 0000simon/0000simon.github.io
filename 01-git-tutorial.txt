@@ -29,5 +29,13 @@ Git Commit:
 	- commit without stage:
 		- sometimes with small changes, you can just commit, without stagging the files, with -a
 			git commit -a -m 'some message to to commit'
-	git commit -a -m 'commiting without stagging the file'
+	git commit -a -m 'commiting without stagging the file' # not recommended
+	git log	# view the history of commit to the repository
 
+Git Help:
+	git command -help 
+	git help --all 		# to get some help of the commands
+	git commit -help
+
+Git Branch:
+	
