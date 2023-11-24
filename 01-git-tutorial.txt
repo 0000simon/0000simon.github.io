@@ -53,4 +53,11 @@ Switching Between Branches:
 		in case you wonder where the hell the files go
 
 Git Branch Merge:
+	- First we need to change to the master branch
+	git checkout master
+	git merge emergency-fix
+	git branch -d emergency-fix	# since we no longer need the branch, delete it
 
+	- merge conflict
+	git chekout hello-world-images
+	
