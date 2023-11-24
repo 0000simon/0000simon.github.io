@@ -60,4 +60,17 @@ Git Branch Merge:
 
 	- merge conflict
 	git chekout hello-world-images
-	
+	- some changes to the files like always
+	git add --all
+	git commit -m 'some mesage to the change'
+	git checkout master # we move to the master branch
+	git merge hello-world-images
+	- git through some conflicts,
+	git status 	# to see the files that have conflict
+	- open the files with an editor, and edit how you want to have it
+	git add index.html 	# the file edited that have conflicts and are resolve with the editor
+	git status
+	git commit -m 'mesage when the conflicts are resolv'
+	git branch -d hello-world-images		# delete the branch since we do not longer need it
+
+
