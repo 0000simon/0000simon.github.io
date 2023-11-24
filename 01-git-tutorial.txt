@@ -38,4 +38,15 @@ Git Help:
 	git commit -help
 
 Git Branch:
-	
+	git branch hello--world-images	 # create the branch
+	git branch  # show the branches
+	git checkout hello-world-images	# changes the branch into which we are working
+	- git checkout -b new-branch # this create the branch and move into it
+	- make some modifications to the files
+	git status # check the status of the files, keep an eye to the branch in which we are working
+	git add --all 	# stage all the files
+	git status # to see the status of the files
+	git commit -m 'some information about the commit'			# the commit to the branch
+
+Switching Between Branches:
+
