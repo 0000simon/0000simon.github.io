@@ -26,7 +26,18 @@ Push changes to github:
 	git commit -a -m 'some message to the commit'
 	git status # check that is says that the branch is 'ahead'
 	git push origin # here is where git pushes the changes to github
-	
-Github branch:
 
-	   
+Pull branch from github:
+	git pull	# so our repo is up to date.
+	git status
+	git branch # to confirm in which brand we are working.
+		- the command above show only the local branches.
+	git branch -a # show all the branches
+		- for only remote branche use (-r)
+	git checkout html-skeleton
+		- we checkout in the branch that we want to work (which is on github)
+	git pull 			# to check if it is up to date.
+	git branch 		# to check in which branch we are working.
+	
+Push branch to github:
+
