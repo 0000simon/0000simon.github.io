@@ -8,3 +8,5 @@ This repository is built step by step in the tutorial.
 It now includes steps frm github.
 
 Second changes, to try 'pull' command.
+
+This is a line for the purpose to push a branch to github.
