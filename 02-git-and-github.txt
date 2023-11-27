@@ -22,4 +22,11 @@ Pull from github:
 		git pull origin # to update our local git. without fetch and merge.
 
 Push changes to github:
-	-   
+	- do some changes in the your local repo
+	git commit -a -m 'some message to the commit'
+	git status # check that is says that the branch is 'ahead'
+	git push origin # here is where git pushes the changes to github
+	
+Github branch:
+
+	   
