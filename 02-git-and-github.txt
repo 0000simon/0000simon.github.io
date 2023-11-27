@@ -1,0 +1,25 @@
+Github get started:
+	git remote add origin URL
+		- specifies that you are adding a remote respository, with the specify URL, as an origin to your local git repo.
+	git push --set-upstream origin master
+		- push our master branch to the origin url, and set as the default remote branch.
+
+Pull from github:
+	- pull is a combination of two diff. commands: fetch and merge
+	- git FETCH # get all the changes history of a tracked branch/repo
+		git fetch origin # to have the recent changes.
+		git status # and read to see that what it says that we are behind by 1 commit.
+		git log origin/master  # to doble check.
+		git diff origin/master  # to show the difference between out local master and the origin/master.
+		- so, now that we are certain of the state of, we can safely MERGE.
+	- git MERGE
+		- combines the current branch, with a specified branch.
+		git merge origin/status	# merge our current branch (master) with origin/master.
+		git status   # to confirm we are up to date.
+	- git PULL
+		- is a cobination of fetch and merge. 
+		- it is used to pull all changes from a remote repository into the branch you are working on.
+		git pull origin # to update our local git. without fetch and merge.
+
+Push changes to github:
+	-   
