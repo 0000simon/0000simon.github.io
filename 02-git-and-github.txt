@@ -40,4 +40,18 @@ Pull branch from github:
 	git branch 		# to check in which branch we are working.
 	
 Push branch to github:
+	git checkout -b update-readme	# here we create a new branch and move into it
+	- we some changes to some files
+	git status	# to check that some files have been edited
+	git add README.md		# we added the giles editted to the stage environment
+	git status	
+	git commit -m 'updated readme.md for github branches'
+	git push origin update-readme		# push the branch of our local repo, to github, where everyone can see the changes.
+	- go to github and confirm that the repo has a new branch
+	- we can merge into the master branch with "Compare & Pull request"
+	- "create pull request" button
+	- "merge pull request"
+	- "delte branch" so the repo don't get too complicated-
+
+Github Flow:
 
