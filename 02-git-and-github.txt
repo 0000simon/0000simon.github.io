@@ -54,4 +54,34 @@ Push branch to github:
 	- "delte branch" so the repo don't get too complicated-
 
 Github Flow:
+	- the github works like this:
+		- Create a New Branch:
+			- the rule: the master branch is always deployable.
+			- when try something new or experiments, create a new branch.
+			- when you branch is ready, it can be review, discussed, and merged with main branch when ready.
+			- when you make a new branch, you will (almost always) want to make from the master branch.
+			- use descriptive names for new branches, so other can understand. 
+		- Make Changes and add Commits:
+			- make changes by adding, editting and deleting files.
+			- whenever you reach a small milestone, add the changes to your branch by commit.
+			- adding commits keep track of your work
+			- each commit should have a message explaining what has changed and why.
+			- each commit becomes a part of the history of the branch, and a point you can revert back to if you need it.
+			- make the read easy: good messages and comments
+		- Open a Pull Request:
+			- notify people you have changes ready for them to consider or review.
+			- you can ask other to review your changes or pull your contribution and merge it into the branch.
+		- Review:
+			- when a pull requet is made, it can be rewied whoever has the proper access to the branch
+			- allow people to work together easily and produce better results together
+		- Deploy:
+			- github allows you to deploy from branch for final testing in production before merging with the master branch
+			- if any issue arise, you can undo the changes by deploying the master branch into production again.
+		- Merge:
+			- after exhaustive testing, you can merge the code into the master branch
+			- pull request keep record of changes to your code
+
+after exhaustive testing, you can merge the code into the master branch
+			- pull request keep record of changes to your code
+
 
